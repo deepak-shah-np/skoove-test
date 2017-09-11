@@ -50,7 +50,8 @@ $ react-native run-ios
 
 Make sure and ios or android device or an emulator is connected or running.
 
-**Tested in android**
+* **ES6** 
+* **Tested in android**
 
 
 
