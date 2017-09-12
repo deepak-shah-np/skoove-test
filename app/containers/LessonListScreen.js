@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, Picker, ListView , StyleSheet, ActivityIndicator} from 'react-native';
 
 import { connect } from 'react-redux';
-import fetchData from '../actions/FetchData';
+import fetchData from '../services/fetchData';
 import Items from '../components/Items';
 
 

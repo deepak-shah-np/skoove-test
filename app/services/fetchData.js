@@ -1,18 +1,6 @@
-import * as types from './types';
+import { requestData, receiveData } from '../redux/actions/FetchData'
 import * as urls from '../config/urls';
 
-
-
-const requestData = ()=> ({
-	type:types.REQUEST_DATA
-})
-
- const receiveData=(json)=>(
-	 {
-		type: types.RECEIVE_DATA,
-		data: json
-	}
- )
 
 export default fetchData=()=>{
 	return (dispatch,getState)=>{
@@ -28,4 +16,3 @@ export default fetchData=()=>{
 			})
 	}
 }
-

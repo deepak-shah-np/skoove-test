@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import configureStores from './stores/configureStores';
+import configureStores from './redux/stores/configureStores';
 import { View, Text } from 'react-native';
 import { StackNavigator, addNavigationHelpers } from 'react-navigation';
 import { connect } from 'react-redux';
